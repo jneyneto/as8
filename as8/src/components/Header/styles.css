@@ -1,0 +1,35 @@
+.home-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: calc((100% / 2) + 600px);
+  height: 125px;
+
+  border-radius: 0 0 20px 0;
+
+  background-color: #000;
+}
+
+.home-header-logo {
+  border-radius: 15px;
+}
+
+.home-header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 1200px;
+  height: 100%;
+}
+
+.qualquercoisa {
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Montserrat;
+}
