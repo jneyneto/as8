@@ -1,0 +1,40 @@
+.home-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  width: calc(600px + (100% / 2));
+  height: 250px;
+
+  border-radius: 0 0 0 20px;
+
+  background-color: #000;
+}
+
+.home-footer-logo {
+  align-self: center;
+  justify-self: center;
+  width: 203px;
+  height: 125px;
+
+  border-radius: 15px;
+}
+
+.home-footer-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 1200px;
+  height: 100%;
+}
+
+.home-footer-nav-textos,
+.qualquercoisa-footer {
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Montserrat;
+}
