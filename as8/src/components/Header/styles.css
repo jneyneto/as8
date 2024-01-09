@@ -11,10 +11,6 @@
   background-color: #000;
 }
 
-.home-header-logo {
-  border-radius: 15px;
-}
-
 .home-header-nav {
   display: flex;
   flex-direction: row;
