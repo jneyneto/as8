@@ -19,6 +19,7 @@ code {
 
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 
   background-color: rgba(30, 122, 243, 0.821);
   color: #fff;

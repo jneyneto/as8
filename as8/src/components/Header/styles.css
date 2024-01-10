@@ -11,6 +11,15 @@
   background-color: #000;
 }
 
+.home-header-logo {
+  align-self: center;
+  justify-self: center;
+
+  width: 200px;
+  height: 125px;
+  margin: 0 0 0 20px;
+}
+
 .home-header-nav {
   display: flex;
   flex-direction: row;

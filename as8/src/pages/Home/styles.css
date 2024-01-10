@@ -31,6 +31,8 @@
   width: 1200px;
   min-height: calc(100vh - 375px);
   padding: 50px 100px 20px 100px;
+  gap: 20px;
+
   background-color: rgb(242, 242, 242);
 }
 
@@ -39,6 +41,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.home-body-purchase button {
+  margin-top: 20px;
 }
 
 .home-body-purchase-position {
@@ -110,6 +116,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.home-body-hire button {
+  margin-top: 20px;
 }
 
 .home-body-hire-position {
