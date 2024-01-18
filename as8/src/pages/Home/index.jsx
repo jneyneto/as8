@@ -1,27 +1,28 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "./styles.css";
 import "../../index.css";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import compra01 from "../../assets/imovel_compra_destaque_01.png";
-import compra02 from "../../assets/imovel_compra_destaque_02.png";
-import compra03 from "../../assets/imovel_compra_destaque_03.png";
-import compra04 from "../../assets/imovel_compra_destaque_04.png";
-import compra05 from "../../assets/imovel_compra_destaque_05.png";
-import locacao01 from "../../assets/imovel_locacao_destaque_01.png";
-import locacao02 from "../../assets/imovel_locacao_destaque_02.png";
-import locacao03 from "../../assets/imovel_locacao_destaque_03.png";
-import locacao04 from "../../assets/imovel_locacao_destaque_04.png";
-import locacao05 from "../../assets/imovel_locacao_destaque_05.png";
+// import compra01 from "../../assets/imovel_compra_destaque_01.png";
+// import compra02 from "../../assets/imovel_compra_destaque_02.png";
+// import compra03 from "../../assets/imovel_compra_destaque_03.png";
+// import compra04 from "../../assets/imovel_compra_destaque_04.png";
+// import compra05 from "../../assets/imovel_compra_destaque_05.png";
+// import locacao01 from "../../assets/imovel_locacao_destaque_01.png";
+// import locacao02 from "../../assets/imovel_locacao_destaque_02.png";
+// import locacao03 from "../../assets/imovel_locacao_destaque_03.png";
+// import locacao04 from "../../assets/imovel_locacao_destaque_04.png";
+// import locacao05 from "../../assets/imovel_locacao_destaque_05.png";
 import bg from "../../assets/background.png";
+import Purchase from "../../components/Purchase";
 
-const dbCompra = [compra01, compra02, compra03, compra04, compra05];
+// const dbCompra = [compra01, compra02, compra03, compra04, compra05];
 
-const dbLocacao = [locacao01, locacao02, locacao03, locacao04, locacao05];
+// const dbLocacao = [locacao01, locacao02, locacao03, locacao04, locacao05];
 
 export default function Home() {
-  const [compra, setCompra] = useState(compra01);
-  const [locacao, setLocacao] = useState(locacao01);
+  // const [compra, setCompra] = useState(compra01);
+  // const [locacao, setLocacao] = useState(locacao01);
 
   // useEffect(() => {}, [compra]);
 
@@ -31,7 +32,8 @@ export default function Home() {
         <img src={bg} alt="" />
       </div>
       <Header />
-      <div className="home-position-body">
+      <Purchase />
+      {/* <div className="home-position-body">
         <div className="home-body">
           <div className="home-body-purchase">
             <h1>Destaque Compra</h1>
@@ -117,7 +119,7 @@ export default function Home() {
             <button className="global-btn">Ver todos</button>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );
