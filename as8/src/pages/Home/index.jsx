@@ -1,8 +1,8 @@
 // import { useState } from "react";
-import "./styles.css";
-import "../../index.css";
-import Header from "../../components/Header";
 import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import "../../index.css";
+import "./styles.css";
 // import compra01 from "../../assets/imovel_compra_destaque_01.png";
 // import compra02 from "../../assets/imovel_compra_destaque_02.png";
 // import compra03 from "../../assets/imovel_compra_destaque_03.png";
@@ -14,7 +14,8 @@ import Footer from "../../components/Footer";
 // import locacao04 from "../../assets/imovel_locacao_destaque_04.png";
 // import locacao05 from "../../assets/imovel_locacao_destaque_05.png";
 import bg from "../../assets/background.png";
-import Purchase from "../../components/Purchase";
+// import Purchase from "../../components/Purchase";
+import Hire from "../../components/Hire";
 
 // const dbCompra = [compra01, compra02, compra03, compra04, compra05];
 
@@ -32,7 +33,8 @@ export default function Home() {
         <img src={bg} alt="" />
       </div>
       <Header />
-      <Purchase />
+      {/* <Purchase /> */}
+      <Hire />
       {/* <div className="home-position-body">
         <div className="home-body">
           <div className="home-body-purchase">

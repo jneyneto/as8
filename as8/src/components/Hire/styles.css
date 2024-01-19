@@ -1,0 +1,74 @@
+.hire-position {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hire {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 1200px;
+  min-height: calc(100vh - 375px);
+  padding: 20px 50px 20px 50px;
+  gap: 20px;
+
+  background-color: #f2f2f2;
+}
+
+.hire-product-guide {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hire-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  border: 1px solid lightgray;
+  border-radius: 10px;
+
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hire-product-image {
+  width: 350px;
+  height: 200px;
+
+  border-radius: 10px 10px 0 0;
+}
+
+.hire-product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  padding: 10px;
+  gap: 5px;
+}
+
+.hire-product-container h2 {
+  font-family: Montserrat;
+  color: darkgray;
+}
+
+.hire-product-infos {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.hire-product-infos-amount {
+  display: flex;
+  gap: 10px;
+}
